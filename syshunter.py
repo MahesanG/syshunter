@@ -22,7 +22,7 @@ def send_email(toaddr,username,time):
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
-    msg['Subject'] = "Leave It Turned On"
+    msg['Subject'] = "You've been caught"
     body = """Hi {u},<br>
 You've been caught working after hours.
 Your system is still running at "{d}"
